@@ -6,6 +6,20 @@
     box-sizing: border-box;
 }
 
+header{
+position: relative;
+bottom: -10px;
+}
+
+header h1{
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    width: auto;
+    height: 90vh;
+}
 
 #imagem{
     width: auto;
@@ -20,6 +34,11 @@
 }
 
 button{
+     display: flex;
+    justify-content: center; /* centraliza horizontal */
+    align-items: center;
+
+    text-align: center;
     font-size: 1.2em;
     border-radius: 5px;
     width: auto;
@@ -32,4 +51,13 @@ button{
     bottom: 200px;
     gap: 10px;
     justify-content: center;
+}
+
+button:hover{
+    color: red;
+    cursor: pointer;
+}
+
+footer{
+
 }
